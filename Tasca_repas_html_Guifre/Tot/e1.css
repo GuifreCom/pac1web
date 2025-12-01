@@ -1,0 +1,21 @@
+.red1{
+    background-color: red;
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.green1{
+    background-color: green;
+    height:115px;
+    width:230px;
+}
+
+.blue1{
+    background-color: blue;
+    height:115px;
+    width:230px;
+}

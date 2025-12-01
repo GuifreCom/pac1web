@@ -1,0 +1,28 @@
+.big {
+	width:500px;
+	height:500px;
+   	background-color: dodgerblue;
+   	
+}
+.topright{
+	width: 100px;
+	height:100px;
+
+	background-color:yellow
+}
+.topleft{
+	width:100px;
+	height:100px;
+
+	background-color:pink;
+}
+.downright{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
+.downleft{
+	width:100px;
+	height:100px;
+	background-color:purple;
+}

@@ -1,0 +1,6 @@
+.img_left {
+ display: flex;
+ width: 100vw;
+ height: 100vm;
+ justify-content:space-between;
+}

@@ -1,0 +1,65 @@
+.red{
+    background-color: red;
+    width:250px;
+    height:250px;
+    position:absolute;
+    border-radius:50%;
+    overflow:hidden;
+}
+
+.green{
+    background-color: green;
+    height:115px;
+    width:225px;
+    position:absolute;
+    border-radius:50%;
+    top: 5%;
+    left:5%;
+}
+.blue{
+    background-color: blue;
+    position:absolute;
+    height:115px;
+    width:225px;
+    border-radius:50%;
+    bottom: 4%;
+    left:5%;
+}
+.orange{
+    background-color: orange;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    left:5%;
+    top:5%;
+
+}
+.yellow{
+    background-color: yellow;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    right:5%;
+    top:5%;
+    
+}
+.darkred{
+    background-color: darkred;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    left:5%;
+    bottom:10%;
+}
+.black{
+    background-color: black;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    right:5%;
+    bottom:10%;
+}

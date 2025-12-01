@@ -1,0 +1,406 @@
+.exercici1{
+    display:flex;
+    justify-content:center;
+    margin-top:0;
+}
+.exercici2{
+    display:flex;
+    justify-content:center;
+}
+.exercici3{
+    display:flex;
+    justify-content:center;
+}
+.exercici4{
+    display:flex;
+    justify-content:center;
+}
+.exercici5{
+    display:flex;
+    justify-content:center;
+}
+#tipus{
+    text-align:center;
+}
+ /*exercici 1 display flex
+ ------------------------------------------*/
+.red1{
+    background-color: red;
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+}
+
+.green1{
+    background-color: green;
+    height:115px;
+    width:230px;
+}
+
+.blue1{
+    background-color: blue;
+    height:115px;
+    width:230px;
+}
+ /*exercici 1 position absolute
+ ------------------------------------------*/
+.red2{
+    width: 250px;;
+    height:250px;
+    background-color: red;
+    position: relative;
+    margin-left:10px;
+}
+.green2{
+    width:230px;
+    height: 115px;
+    background-color: green;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.blue2{
+    width:230px;
+    height: 115px;
+    background-color: blue;
+    position: absolute;
+    bottom:10px;
+    left:10px;
+}
+ /*exercici 2 display flex
+ ------------------------------------------*/
+.red3{
+    background-color: red;
+    width:250px;
+    height:250px;
+    display:flex;
+    margin-right:10px;
+}
+.a{
+    display:flex;
+    width:250px;
+    height:250px;
+    margin:10px;
+}
+.green3{
+    background-color: green;
+    width:50%;
+    height:50%;
+}
+.blue3{
+    background-color: blue;
+    width:50%;
+    height:50%;
+}
+ /*exercici 2 position absolute
+ ------------------------------------------*/
+.red4{
+    background-color: red;
+    width:250px;
+    height:250px;
+    position:relative;
+    margin-left:10px;
+}
+.green4{
+    background-color: green;
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.blue4{
+    background-color: blue;
+    width:50%;
+    height:50%;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+ /*exercici 3 display flex
+ ------------------------------------------*/
+.red5{
+    background-color: red;
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+}
+.green5{
+    background-color: green;
+    height:115px;
+    width:230px;
+    display:flex;
+    justify-content:center;
+}
+.blue5{
+    background-color: blue;
+    height:115px;
+    width:230px;
+    display:flex;
+    justify-content:center;
+}
+.orange1{
+    background-color: orange;
+    width:50%;
+    height:95px;
+    margin:10px;
+}
+.yellow1{
+    background-color: yellow;
+    width:50%;
+    height:95px;
+    margin:10px;
+}
+.darkred1{
+    background-color: darkred;
+    width:50%;
+    height:95px;
+    margin:10px;
+}
+.black1{
+    background-color: black;
+    width:50%;
+    height:95px;
+    margin:10px;
+}
+ /*exercici 3 position absolute
+ ------------------------------------------*/
+.red6{
+    background-color: red;
+    width:250px;
+    height:250px;
+    position: relative;
+    margin-left:10px;
+}
+.green6{
+    background-color: green;
+    height:115px;
+    width:230px;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+.blue6{
+    background-color: blue;
+    height:115px;
+    width:230px;
+    position:absolute;
+    bottom:10px;
+    left:10px;  
+}
+.orange2{
+    background-color: orange;
+    width:42%;
+    height:95px;
+    position:absolute;
+    margin:10px;
+}
+.yellow2{
+    background-color: yellow;
+    width:42%;
+    height:95px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+.darkred2{
+    background-color: darkred;
+    width:42%;
+    height:95px;
+    position:absolute;
+    top:10px;
+    bottom:10px;
+    left:10px;
+}
+.black2{
+    background-color: black;
+    width:42%;
+    height:95px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
+
+ /*exercici 4 display:flex
+ ------------------------------------------*/
+.red7{
+    background-color: red;
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    overflow:hidden;
+    margin-right:10px;
+}
+.green7{
+    background-color: green;
+    height:115px;
+    width:230px;
+    display:flex;
+    justify-content:center;
+    border-radius:50%;  
+}
+.blue7{
+    background-color: blue;
+    height:115px;
+    width:230px;
+    display:flex;
+    justify-content:center;
+    border-radius:50%;
+}
+.orange3{
+    background-color: orange;
+    width:50%;
+    height:95px;
+    margin:10px;
+    border-radius:50%;
+}
+.yellow3{
+    background-color: yellow;
+    width:50%;
+    height:95px;
+    margin:10px;
+    border-radius:50%;
+}
+.darkred3{
+    background-color: darkred;
+    width:50%;
+    height:95px;
+    margin:10px;
+    border-radius:50%;
+}
+.black3{
+    background-color: black;
+    width:50%;
+    height:95px;
+    margin:10px;
+    border-radius:50%;
+}
+  /*exercici 4 position absolute
+ ------------------------------------------*/
+ .red8{
+    background-color: red;
+    width:250px;
+    height:250px;
+    position:relative;
+    border-radius:50%;
+    overflow:hidden;
+    margin-left:10px;
+}
+.green8{
+    background-color: green;
+    height:115px;
+    width:225px;
+    position:absolute;
+    border-radius:50%;
+    top: 5%;
+    left:5%;
+}
+.blue8{
+    background-color: blue;
+    position:absolute;
+    height:115px;
+    width:225px;
+    border-radius:50%;
+    bottom: 4%;
+    left:5%;
+}
+.orange4{
+    background-color: orange;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    left:5%;
+    top:5%;
+}
+.yellow4{
+    background-color: yellow;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    right:5%;
+    top:5%;
+}
+.darkred4{
+    background-color: darkred;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    left:5%;
+    bottom:10%;
+}
+.black4{
+    background-color: black;
+    position:absolute;
+    width:40%;
+    height:80%;
+    border-radius:50%;
+    right:5%;
+    bottom:10%;
+}
+ /*exercici 5 display:flex
+ ------------------------------------------*/
+.red9{
+    background-color: red;
+    width:250px;
+    height:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:10px;
+}
+.green9{
+    margin:10px;
+    width:100px;
+    height:100px;
+    background-color: green;
+    align-self:flex-start;
+}
+.blue9{
+    margin:10px;
+    width:100px;
+    height:100px;
+    background-color: blue;
+    align-self:flex-end;
+}
+  /*exercici 5 position absolute
+ ------------------------------------------*/
+.red10{
+    background-color: red;
+    width:250px;
+    height:250px;
+    position: relative;
+    margin-left:10px;
+}
+.green10{
+    background-color:green;
+    width:100px;
+    height:100px;
+    position:absolute;
+    margin:10px;
+    left:0px;
+}
+.blue10{
+    background-color:blue;
+    width:100px;
+    height:100px;
+    position:absolute;
+    margin:10px;
+    right:0px;
+    bottom:0px;
+}
